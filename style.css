@@ -1,5 +1,43 @@
 .container{
-    margin: 0 auto;
     width: 100%;
-    background-color: black;
+    margin: 0s;
+}
+header{
+    margin: 0 auto;
+    padding: 0;
+}
+.header__logo{
+    margin: 0 auto;
+    padding:  0;
+}
+.nav{
+    margin:  0 auto;
+    width: 100%;
+    text-decoration: none;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    transition: top 0.3s;
+}
+.nav__link{
+    margin:  0 auto;
+}
+.nav__link a{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    margin:  0 auto;
+}
+
+.nav__link :hover{
+    color: yellow;
+}
+footer{
+    padding-top :2550px;
 }
